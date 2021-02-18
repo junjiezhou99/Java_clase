@@ -30,6 +30,8 @@ public class AnimalTester {
         System.out.println("Probando nodo padre: " + dg1.getName()); //Probando el getName del padre animal
     
         dg1.goesToSleep(); //Printa la interfície, con el void y el println del dg1 no hara falta poner print aqui
+        dg1.whenToEat();
+        System.out.println(dg1.getNumber(dg1)); //Printa el metodo pasando el dg1 como objeto
         
         /*System.out.println("Introdueix el nom del gos 2: ");
         name = sc.next();

@@ -44,11 +44,19 @@ public class Dog extends Animal implements Animable{ //Clase dog con su atributo
     @Override //Sobreescribiendo del método padre
     public double calculate(){ //Implementacion del método del abstract
         return 1.5*weight;
-        
     }
-
+    
     @Override
-    public void goesToSleep() {
+    public void goesToSleep() { //Instancias del Animable, coge todos los abstractos y no tienen parametros
         System.out.println("Se va a dormir a las 10:00");
+    }
+    @Override
+    public void whenToEat() {
+        System.out.println("A las 21:00 a cenar, prros");
+    }
+    
+    @Override
+    public double getNumber(Dog d) { //Instancia del Animable, le pasamos el objeto entero de tipo Dog y retornamos el peso como double del objeto dog
+        return d.weight;
     }
 }
