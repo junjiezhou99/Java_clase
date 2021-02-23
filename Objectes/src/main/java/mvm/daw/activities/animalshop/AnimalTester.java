@@ -1,4 +1,5 @@
 package mvm.daw.activities.animalshop;
+import com.mycompany.objectes.Tiburones;
 import java.util.Scanner;
 /**
  * @author alumne
@@ -8,6 +9,8 @@ public class AnimalTester {
         Scanner sc; //Instanciar una clase 
         sc = new Scanner(System.in); //Utilizar constructor
         
+        Tiburones t = new Tiburones("barbo","husky","white","dientes",10.2);
+        /*
         System.out.println("Introdueix el nom del gos 1: ");
         String name = sc.next();
         System.out.println("Introdueix la raca del gos 1: ");
@@ -32,6 +35,7 @@ public class AnimalTester {
         dg1.goesToSleep(); //Printa la interfície, con el void y el println del dg1 no hara falta poner print aqui
         dg1.whenToEat();
         System.out.println(dg1.getNumber(dg1)); //Printa el metodo pasando el dg1 como objeto
+        */
         
         /*System.out.println("Introdueix el nom del gos 2: ");
         name = sc.next();

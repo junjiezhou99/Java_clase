@@ -3,7 +3,7 @@ package mvm.daw.activities.animalshop;
  *
  * @author alumne
  */
-abstract class Animal { //Super clase Animal con características generales para todas las clases
+public abstract class Animal { //Super clase Animal con características generales para todas las clases
     String name,breed,colour;
     double weight;
     
@@ -25,5 +25,5 @@ abstract class Animal { //Super clase Animal con características generales para
     public double getWeight(){return weight;}
     public void setWeight(double w){weight = w;}
     
-    abstract double calculate(); //Hacer que os nodos hijos tenga una funcion todos, el como es la funcion lo decide el hijo
+    public abstract double calculate(); //Hacer que os nodos hijos tenga una funcion todos, el como es la funcion lo decide el hijo
 }
