@@ -1,4 +1,4 @@
-package com.mycompany.objectes;
+package mvm.daw.activities.sea;
 
 import mvm.daw.activities.animalshop.Animal;
 
@@ -28,4 +28,18 @@ public class Tiburones extends Animal{
     public double calculate() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    /*public void finalize() throws Throwable{
+        try{
+            System.out.println("algo");
+        }
+        catch (Throwable e) {
+
+            throw e;
+        }
+        finally{
+            System.out.println("calling method" + "object class");
+            super.finalize();
+        }
+    }*/
 }

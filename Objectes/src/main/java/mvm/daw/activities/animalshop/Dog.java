@@ -54,7 +54,6 @@ public class Dog extends Animal implements Animable{ //Clase dog con su atributo
     public void whenToEat() {
         System.out.println("A las 21:00 a cenar, prros");
     }
-    
     @Override
     public double getNumber(Dog d) { //Instancia del Animable, le pasamos el objeto entero de tipo Dog y retornamos el peso como double del objeto dog
         return d.weight;

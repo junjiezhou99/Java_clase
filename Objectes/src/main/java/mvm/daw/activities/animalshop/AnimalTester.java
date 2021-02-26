@@ -1,5 +1,5 @@
 package mvm.daw.activities.animalshop;
-import com.mycompany.objectes.Tiburones;
+import mvm.daw.activities.sea.Tiburones;
 import java.util.Scanner;
 /**
  * @author alumne
@@ -9,7 +9,19 @@ public class AnimalTester {
         Scanner sc; //Instanciar una clase 
         sc = new Scanner(System.in); //Utilizar constructor
         
-        Tiburones t = new Tiburones("barbo","husky","white","dientes",10.2);
+        /*Tiburones t = new Tiburones("barbo","husky","white","dientes",10.2);*/
+        
+        Complex c1 = new Complex(10, 15);
+        Complex c2 = new Complex(10, 15);
+        if (c1.equals(c2)){ //llama al metodo equals del complex y hace una comparacion, retornando true si es igual
+            System.out.println("Equal");
+        }
+        else{
+            System.out.println("Not equal");
+        }
+        System.out.println(c1); //toString devuelve lo que es el return del metodo c1
+        /*Tiburones d = new Tiburones();
+        d.finalize();*/
         /*
         System.out.println("Introdueix el nom del gos 1: ");
         String name = sc.next();
